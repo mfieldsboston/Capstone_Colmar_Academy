@@ -132,6 +132,7 @@ body {
 #main2 .right_side .box,
 #main4 .right_side .box {
   display: flex;
+  align-items: center;
 }
 
 /* Main 3 Styles */
