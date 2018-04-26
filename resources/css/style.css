@@ -71,7 +71,8 @@ body {
 #main1 .container,
 #main2 .container,
 #main3 .container,
-#main4 .container {
+#main4 .container,
+#main4 .inner_container {
   display: flex;
 }
 
@@ -113,36 +114,23 @@ body {
 #main2 .left_side,
 #main4 .left_side {
   width: 60%;
+  padding-right: 1.5rem;
+}
+
+#main2 .left_side .img_container {
+  padding-top: 2rem;
 }
 
 #main1 .text_blurb,
 #main2 .right_side,
 #main4 .right_side {
   width: 40%;
-  padding-left: 1.5rem;
 }
 
-/*#main1 .text_blurb,
 #main2 .right_side,
 #main4 .right_side {
-  width: 40%;
-}
-
-#main1 .text_blurb,
-#main4 .right_side {
-  padding-left: 1.5rem;
-}
-
-#main2 .right_side {
-  margin-left: 1.5rem;
   border: 1px solid black;
-}*/
-
-/*#main2 .right_side {
-  display: flex;
-  justify-content: space-around;
-  border: 1px solid black;
-}*/
+}
 
 /* Main 2 & 4 Styles */
 
@@ -157,13 +145,18 @@ body {
 #main2 .pic_caption,
 #main4 .pic_caption {
   width: 65%;
-  padding-left: 1.5em;
+  padding-left: 1rem;
 }
 
 #main2 .right_side .box,
 #main4 .right_side .box {
   display: flex;
   align-items: center;
+  padding: 1rem;
+}
+
+#main2 .right_side .box:first-child {
+  padding-top: 2rem;
 }
 
 /* Main 3 Styles */
@@ -179,4 +172,15 @@ body {
 
 #main3 .box {
   flex-basis: 33%;
+}
+
+/* Main 4 Styles */
+
+#main4 .container {
+  flex-direction: column;
+  align-items: center;
+}
+
+#main4 .inner_container {
+  flex-direction: row;
 }
