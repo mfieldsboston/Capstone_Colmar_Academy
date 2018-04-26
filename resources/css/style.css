@@ -73,8 +73,12 @@ body {
 #main3 .container,
 #main4 .container {
   display: flex;
-  align-items: center;
   padding: 0 1.5rem;
+}
+
+#main1 .container,
+#main3 .container {
+  align-items: center;
 }
 
 #main1 .img_container img,
