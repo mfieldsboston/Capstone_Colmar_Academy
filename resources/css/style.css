@@ -66,7 +66,7 @@ body {
   border-top: 1px solid black;
 }
 
-/* Main 1,2,& 3 General Section Styles */
+/* Main 1,2,3,&4 General Styles */
 
 #main1 .container,
 #main2 .container,
@@ -109,7 +109,7 @@ body {
   padding-left: 1.5em;
 }
 
-/* Main 2 & 4 Section */
+/* Main 2 & 4 Styles */
 
 #main2 .box_image1,
 #main2 .box_image2,
@@ -130,7 +130,7 @@ body {
   display: flex;
 }
 
-/* Main 3 Section */
+/* Main 3 Styles */
 
 #main3 .container {
   flex-direction: column;
