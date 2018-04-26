@@ -73,7 +73,16 @@ body {
 #main3 .container,
 #main4 .container {
   display: flex;
+}
+
+#main1 .container,
+#main2 .container,
+#main4 .container {
   padding: 0 1.5rem;
+}
+
+#main3 .container {
+  padding: 0 4.5rem;
 }
 
 #main1 .container,
