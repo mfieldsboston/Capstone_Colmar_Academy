@@ -138,4 +138,5 @@ body {
 
 #main3 .container .boxes {
   display: flex;
+  flex-wrap: wrap;
 }
