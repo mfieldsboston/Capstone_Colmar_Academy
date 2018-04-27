@@ -263,6 +263,62 @@ body {
   padding: .5rem 0;
 }
 
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 1328px) {
+  #main3 .box .caption {
+    height: 6.6rem;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1328px) {
+  #main3 .box .caption {
+    height: 8rem;
+  }
+}
+
+@media only screen and (min-width: 849px) and (max-width: 999px) {
+  #main3 .box .caption {
+    height: 9.4rem;
+  }
+}
+
+@media only screen and (min-width: 756px) and (max-width: 848px) {
+  #main3 .box .caption {
+    height: 10.8rem;
+  }
+}
+
+@media only screen and (min-width: 708px) and (max-width: 755px) {
+  #main3 .box .caption {
+    height: 12.2rem;
+  }
+}
+
+@media only screen and (min-width: 645px) and (max-width: 707px) {
+  #main3 .box .caption {
+    height: 13.6rem;
+  }
+}
+
+@media only screen and (min-width: 626px) and (max-width: 644px) {
+  #main3 .box .caption {
+    height: 15rem;
+  }
+}
+
+@media only screen and (min-width: 603px) and (max-width: 625px) {
+  #main3 .box .caption {
+    height: 16.4rem;
+  }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 602px) {
+  #main3 .box .caption {
+    height: 17.8rem;
+  }
+}
+
 /* Main 4 Styles */
 
 #main4 .container {
@@ -287,13 +343,11 @@ body {
   border: 1px solid #D8D8D8;
 }
 
-/* MEDIA QUERIES */
-
-@media only screen and (max-width: 1110px) {
+@media only screen and (min-width: 1328px) {
 
 }
 
-@media only screen and (min-width: 761px) and (max-width: 1109px) {
+@media only screen and (max-width: 1110px) {
 
 }
 
