@@ -447,6 +447,10 @@ body {
     padding-bottom: 2rem;
   }
 
+  #main2 .right_side .box {
+    align-items: initial;
+  }
+
 }
 
 /* MAIN 3 CONTENT CONTAINER STYLES */
