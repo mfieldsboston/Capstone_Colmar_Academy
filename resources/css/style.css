@@ -745,7 +745,7 @@ header nav.mobile img,
 
 }
 
-/*MEDIA QUERY IE*/
+/* INTERNET EXPLORER MEDIA QUERIES */
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
 	#main3 .container .boxes { display: block;}
@@ -753,7 +753,7 @@ header nav.mobile img,
   #main4 {display: none;}
 }
 
-/*MEDIA QUERY EDGE*/
+/* MICROSOFT EDGE MEDIA QUERIES */
 
 @supports (-webkit-appearance:none) {
 
